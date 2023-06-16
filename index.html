@@ -5,12 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salão JARDE o melhor para o seu estilo.</title>
+    <link rel="shortcut icon" href="img/jard.png" type="img/jard">
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 
 <body>
+    <nav id="menu-h">
+        <ul>
+            <li><a href="#informacoes">Contaato</a></li>
+            <li><a href="#hair1">Produtos/Galeria</a></li>
+            <li><a href="https://www.gorilabarbershop.com.br/galeria.php">Empresa</a></li>
+            <li><a href="https://www.gorilabarbershop.com.br/galeria.php">Agendamentos</a></li>
+            <li><a href="https://www.gorilabarbershop.com.br/galeria.php">Login</a></li>
+        </ul>
+    </nav>
 
-  
     <div class="banner">
         <div class="text_banner">
             <h2>Salão</h2>
@@ -19,49 +28,41 @@
         </div>
     </div>
 
-    <nav id="menu-h">
-        <ul>
-            <li><a href="#hair1">Agendamentos</a></li>
-            <li><a href="#fotos">Fotos/Produtoss</a></li>
-            <li><a href="https://www.gorilabarbershop.com.br/galeria.php">Empresa</a></li>
-            <li><a href="https://www.gorilabarbershop.com.br/galeria.php">Profissionais</a></li>
-           
-        </ul>
-    </nav>
-    
+
+
     <!-- fotos dos itens do salao-->
     <div class="row">
-        <div class="column">
-            <img src="img/corte de cabelo.jpg" id="corte">
-            <label style="color: #000;" for="corte">Um corte de cabelo buscando a elegancia e moderniodade com ótima qualidade</label>
-            
+        <div class="column1">
+            <img src="img/cabelo.png" id="corte" class="gallery_img" alt="teste">
+            <p>O melhor corte da região</p>
+
         </div>
-        <div class="column">
-            <img src="img/bigode.jpg" id="bigode">
-            <label style="color: #000;"for="bigode">Um lugar agradavel para buscar harmonia e a beleza. </label>
+        <div class="column2">
+            <img src="img/local.png" id="bigode" class="gallery_img" alt="teste">
+            <p>Um lugar agradavel para buscar harmonia e a beleza. </p>
         </div>
-        <div class="column">
-            <img src="img/massagens.jpg" id="massagens">
-            <label style="color: #000;" for="massagem">Cuidados especiais para homens especiais.</label>
+        <div class="column3">
+            <img src="img/maquina.png" id="massagens" class="gallery_img" alt="teste">
+            <p>Cuidados especiais para homens especiais.</p>
         </div>
     </div>
     <div class="row2">
-        <div class="column">
-            <img src="img/coloração.jpg" id="coloração"><br>
-            <label style="color: #000;" for="coloração">Cuide do seu cabelo com quem mais entende de tintura e pigmentação.</label>
+        <div class="column1">
+            <img src="img/cabelo2.png" id="coloração" class="gallery_img" alt="teste"><br>
+            <p>Cuide do seu cabelo com quem mais entende de tintura e pigmentação.</p>
         </div>
 
-        <div class="column">
-            <img src="img/starheis.png" id="hair"><br>
-            <label style="color: #000;" for="hair"> fdsgfdsgfdsgfgfsfsd.</label>
+        <div class="column2">
+            <img src="img/corte_cabelo.jpg" id="hair" class="gallery_img" alt="teste">
+            <p> Um corte de cabelo buscando a elegancia e modernidade com ótima qualidade</p>
         </div>
     </div>
 
     <div class="row3">
 
-        <div class="column">
-            <img src="img/OIP.jfif" id="hair1"><br>
-            <label style="color: #000;" for="hair1">Produtos e Kits especiais para você.</label>
+        <div class="column1">
+            <img src="img/produtos.png" id="hair1" class="gallery_img" alt="teste">
+            <p>Produtos e Kits especiais para você.</p>
         </div>
     </div>
 
@@ -69,93 +70,154 @@
 
     <!--aqui começa o -->
 
-    <div class="fora">
-        <td>
-            <div>
-                <a class="button" id=fotos href="(https://booksy.com/pt-br/8647_gorila-barbershop_cabelo_931546_guarulhos)"
-                    style="float: right; padding: 11px 21px; vertical-align: middle;
-                 background:#696b67; color:white;border-radius:6px; font-size: 20px; font-family:helvetica, 
-                 serif;text-decoration:none;">Produtos</a>
-            </div>
-        </td>
-        <td>
-            <div>
-                <a class="button" href="(https://www.gorilabarbershop.com.br/galeria.php)" style="float:left; padding: 11px 21px; vertical-align: middle;
-                 background:#696b67; color:white;border-radius:6px; font-size: 20px; font-family:helvetica, 
-                 serif;text-decoration:none;">Fotos</a>
-            </div>
+    <div class="fora" id="botao">
+        <div>
+            <a class="button" href="(https://booksy.com/pt-br/8647_gorila-barbershop_cabelo_931546_guarulhos)" style="float: right; padding: 11px 21px; vertical-align: middle;
+                 background:#232423; color:white;border-radius:6px; font-size: 20px; font-family:helvetica, 
+                 serif;text-decoration:none;">Galeria</a>
+        </div>
 
-        </td>
+
+        <div>
+            <a class="button" href="(https://www.gorilabarbershop.com.br/galeria.php)" style="float:left; padding: 11px 21px; vertical-align: middle;
+                  background:#232423; color:white;border-radius:6px; font-size: 20px; font-family:helvetica, 
+                 serif;text-decoration:none;">Produtos</a>
+        </div>
         <!-- testo sobre a empresa-->
         <br>
         <br>
         <br>
-        <h1 style="text-decoration: underline;" align="center"> Salão JARD </h1> <!--Sublinhado-->
-        
+
+
+        <h1> Salão JARD </h1> <!--Sublinhado-->
+
         <br>
         <br>
         <br>
-        <p>Inaugurado em fevereiro de 2023, o salão instalou-se na cidade de campinas.</p>
-        <p>Com o intuito de trazer para o homem um espaço diferenciado onde em apenas um único lugar ele possa obter o máximo de cuidado para sua beleza.</p>
-        <p>Fundada por quatro amigos cabeleireiros, que tiveram a visão empreendedora de abrir um espaço destinado ao homem, tendo cada um o seu estilo diferenciado e inovador, que tiveram a ideia de montar um salão e que hoje tem o nome de JARD.</p>
-        
+
+        <p>Inaugurado em fevereiro de 2023, o salão instalou-se na cidade de campinas
+        <p>com o intuito de trazer para o homem, um espaço
+        <p>
+            diferenciado aonde em apenas um unico lugar ele possa obter o maximo de cuidado para sua beleza.</p>
+        <p>Fundada por quatro amigos cabeleleiros, que tiveram a visão empreendedora abir um espaço destinado ao homem,
+        <p>
+            tendo cada um o seu estilo diferenciado e inovador, que tiveram a ideia de montar
+        <p>
+            um salão e que hoje tem o nome de JARD.
+        </p>
 
     </div>
     <!--4amigos-->
-   <br>
-   <br>
-   <br>
-   
-        <div class="row4">
-          
-            <h1 style="text-decoration: underline;" align="center"> Nossa Equipe </h1> <!--Sublinhado-->
 
-            <div class="column">
-                <img src="img/amigo1.jpg" alt="amigo1" style="width: 100%;">
-                <label for="corte">
-                    <h1>Mauricio</h1> 
-                    <p style="color: #000;">Com formaçao academica no curso de barbearia no senac e pós na polo cursos, experiente na arte de cortes e massagens,
-                         ja foi cabelereiro de diversos famosos.</p>
-                    </label>
-            </div>
-            <div class="column">
-                <img src="img/amigo2.JPG" alt="amigo2" style="width: 100%;">
-                <label for="bigode"><h1>Douglas</h1> 
-                    <p style="color: #000;">O mais experiente dos profissionais tendo uma bagagem de trabalho com mais de 20 anos no ramo se formou no 
-                    instituto divas, eleven e abtec, atualmente da aula em cursos de aperfeiçoamento e cortes no salão JARD em campinas.</p>
-                 </label>
-            </div>
-            <div class="column">
-                <img src="img/amigo3.JPG" alt="amigo3" style="width: 100%;">
-                <label for="massagem"><h1>Samuel</h1> 
-                    <p style="color: #000;">Especialista em cortes com consultoria para produtos adequados para qualquer tipo de cabelo se formou como barbeiro
-                     pelo senac e pela CEFAD mas tambem se formou como terapeuta capilar pelo instituto L'Oreal.</p>
-                </label>
-            </div>
-        
-            <div class="column">
-                <img src="img/amigo4.JPG" alt="amigo4" style="width: 100%;">
-                <label for="icoloração"><h1>Jeremias</h1> 
-                    <p style="color: #000;">Experiente nos dois mundos, formado tanto em barbearia como tambem cabeleireiro tem uma caminhada de trabalho de 10 anos, 
-                        <p style="color: #000;">já foi contratado pelo estudio projac e atualmente faz parte do salão JARD.</p>
-                </label>
-            </div>
-            <a href="https://api.whatsapp.com/send?l=pt&amp;phone=55199919238100"><img 
-                src="img/222.jpg" style="height:64px; position:fixed; bottom: 25px; right: 
-                25px; z-index:99999;" data-selector="img"></a>
+    <div class="row4">
+
+        <div class="column">
+            <img src="img/amigo1.jpg" alt="amigo1" style="width: 70%;">
+
+            <h1>Mauricio</h1>
+            <br>
+            <p style="color: #000;">Com formaçao academica no curso de barbearia no senac e pós na polo cursos,
+                experiente na arte de cortes e massagens,
+                ja foi cabelereiro de diversos famosos.</p>
+
+        </div>
+        <div class="column">
+            <img src="img/amigo2.JPG" alt="amigo2" style="width: 70%;">
+
+            <h1>Douglas</h1>
+            <br>
+            <p style="color: #000;">O mais experiente dos profissionais tendo uma bagagem de trabalho com mais de 20
+                anos, se formou no
+                instituto divas, eleven e abtec, atualmente da aula em cursos de aperfeiçoamento e cortes no salão JARD
+                em campinas.</p>
+
+        </div>
+        <div class="column">
+            <img src="img/amigo3.JPG" alt="amigo3" style="width: 70%;">
+
+            <h1>Samuel</h1>
+            <br>
+            <p style="color: #000;">Especialista em cortes com consultoria para produtos adequados para qualquer tipo de
+                cabelo se formou como barbeiro
+                pelo senac e pela CEFAD mas tambem se formou como terapeuta capilar pelo instituto L'Oreal.</p>
+
+        </div>
+
+    </div>
+
+    <div class="row5">
+
+        <div class="column">
+            <h1>Localização</h1>
+            <a href="https://goo.gl/maps/b9vtkB4HBwtWxWQm8"><img src="img/google_maps.JPG" id="mapa"
+                    alt="teste"></a><br>
+        </div>
+
+    
+
+        <span class="column8">
+            <h1>ENDEREÇO</h1>
+            <p>Rua Bela Vista, 360 - loja 05
+            <p>
+                Bairro: Chácara Santo Antônio
+            <p>
+                Campinas - SP</p>
+        </span>
+        <span class="column9">
+            <h1>HORÁRIOS</h1>
+
+            <p>Segunda a Sexta - 09h a 22222h
+            <p>
+                Sábado - 09h a 20h
+            <p>
+                ​Domingo - 10h a 16h
+            <p>
+        </span>
+
+        <a href="https://api.whatsapp.com/send?l=pt&amp;phone=55199919238100"><img src="img/222.jpg" style="height:64px; position:fixed; bottom: 25px; right: 
+                25px; z-index:99999;" data-selector="img" alt="teste"></a>
+
+
+    </div>
+
+    
+    <fieldset>
+
+        <div class="agenda">
+
+            <h1 id="texto">
+                CONTATO
+            </h1>
+
+        </div>
+
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <!--Espaço para chave da api-->
+            <input type="hidden" name="$accessKey" value="4116c726-6536-42f3-a838-b4df7fcc3a3e">
+
+
+            <div class="campo">
+                <br>
+                <label for="nome"><strong>Nome completo</strong></label>
+                <input type="text" name="$nome" id="nome" maxlength="40" required>
+              
+                <label for="nome"><strong>Telefone</strong></label>
+                <input type="tel" name="$nome" id="nome" maxlength="40" required>
+                <!-- Botão para enviar o formulario -->
+                <button class="botao" id="informacoes" type="submit" value="Submit">ENVIAR</button>
+
             
-        </div>
-        
-        <div class="row5">
-
-            <div class="column">
-                <label > <h1>Localização</h1></label>
-                <a href="https://goo.gl/maps/b9vtkB4HBwtWxWQm8"><img src="img/google maps.JPG" id="mapa"></a><br>
-               
             </div>
-        </div>
+            <div class="campo">
+                <br>
+                <label for="experiencia"><strong>Descreva o horario e o que gostaria de realizar: </strong></label>
+                <br> <textarea rows="8" style="width: 50em" id="experiencia" name="%experiencia"></textarea>
+            </div>
+           
+    </fieldset>
+    
+
 
 </body>
 
 </html>
-
