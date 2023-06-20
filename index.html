@@ -12,10 +12,10 @@
 <body>
     <nav id="menu-h">
         <ul>
-            <li><a href="#informacoes">Contaato</a></li>
-            <li><a href="#hair1">Produtos/Galeria</a></li>
+            <li><a href="#informacoes">Agendamentos</a></li>
+            <li><a href="#botao">Fotos/Produtoss</a></li>
             <li><a href="https://www.gorilabarbershop.com.br/galeria.php">Empresa</a></li>
-            <li><a href="https://www.gorilabarbershop.com.br/galeria.php">Agendamentos</a></li>
+            <li><a href="https://www.gorilabarbershop.com.br/galeria.php">Profissionais</a></li>
             <li><a href="https://www.gorilabarbershop.com.br/galeria.php">Login</a></li>
         </ul>
     </nav>
@@ -74,14 +74,14 @@
         <div>
             <a class="button" href="(https://booksy.com/pt-br/8647_gorila-barbershop_cabelo_931546_guarulhos)" style="float: right; padding: 11px 21px; vertical-align: middle;
                  background:#232423; color:white;border-radius:6px; font-size: 20px; font-family:helvetica, 
-                 serif;text-decoration:none;">Galeria</a>
+                 serif;text-decoration:none;">Produtos</a>
         </div>
 
 
         <div>
             <a class="button" href="(https://www.gorilabarbershop.com.br/galeria.php)" style="float:left; padding: 11px 21px; vertical-align: middle;
                   background:#232423; color:white;border-radius:6px; font-size: 20px; font-family:helvetica, 
-                 serif;text-decoration:none;">Produtos</a>
+                 serif;text-decoration:none;">Galeria</a>
         </div>
         <!-- testo sobre a empresa-->
         <br>
@@ -149,22 +149,21 @@
 
         <div class="column">
             <h1>Localização</h1>
-            <a href="https://goo.gl/maps/b9vtkB4HBwtWxWQm8"><img src="img/google_maps.JPG" id="mapa"
-                    alt="teste"></a><br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3674.954609081319!2d-47.0585059!3d-22.915045!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8cf3303ceff43%3A0xea485c60a4b21ef5!2sEscola%20SENAI%20Prof.%20Dr.%20Euryclides%20de%20Jesus%20Zerbini!5e0!3m2!1spt-BR!2sbr!4v1687222139437!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
     
 
-        <span class="column8">
-            <h1>ENDEREÇO</h1>
+        <div class="column8">
+            <span>ENDEREÇO</span>
             <p>Rua Bela Vista, 360 - loja 05
             <p>
                 Bairro: Chácara Santo Antônio
             <p>
                 Campinas - SP</p>
-        </span>
-        <span class="column9">
-            <h1>HORÁRIOS</h1>
+            </div>
+        <div class="column9">
+            <span>HORÁRIOS</span>
 
             <p>Segunda a Sexta - 09h a 22222h
             <p>
@@ -172,7 +171,7 @@
             <p>
                 ​Domingo - 10h a 16h
             <p>
-        </span>
+            </div>
 
         <a href="https://api.whatsapp.com/send?l=pt&amp;phone=55199919238100"><img src="img/222.jpg" style="height:64px; position:fixed; bottom: 25px; right: 
                 25px; z-index:99999;" data-selector="img" alt="teste"></a>
@@ -198,11 +197,12 @@
 
             <div class="campo">
                 <br>
-                <label for="nome"><strong>Nome completo</strong></label>
+                <label for="nome"><strong>Nome</strong></label>
                 <input type="text" name="$nome" id="nome" maxlength="40" required>
+            
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" name="$sobrenome" id="sobrenome" maxlength="40" required>
               
-                <label for="nome"><strong>Telefone</strong></label>
-                <input type="tel" name="$nome" id="nome" maxlength="40" required>
                 <!-- Botão para enviar o formulario -->
                 <button class="botao" id="informacoes" type="submit" value="Submit">ENVIAR</button>
 
@@ -213,6 +213,7 @@
                 <label for="experiencia"><strong>Descreva o horario e o que gostaria de realizar: </strong></label>
                 <br> <textarea rows="8" style="width: 50em" id="experiencia" name="%experiencia"></textarea>
             </div>
+        </form>    
            
     </fieldset>
     
